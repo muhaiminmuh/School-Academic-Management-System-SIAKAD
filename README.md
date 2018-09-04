@@ -4,6 +4,7 @@ Merupakan website akademik siakad sederhana yang dibangun dengan framework djang
 
 
 # Requirement
+* XAMPP
 * python 3
 * pip
 * virtualenvwrapper-win
@@ -23,8 +24,9 @@ Merupakan website akademik siakad sederhana yang dibangun dengan framework djang
 	* pip  install  mysqlclient
 	* pip  install  reportlab
 
-7. Extract & Copy folder ("School-Academic-Management-System-SIAKAD-master") to C:/Users/(userpc)/
-8. Open Command Prompt, and type
+4. Extract & Copy folder ("School-Academic-Management-System-SIAKAD-master") to C:/Users/(userpc)/
+5. Activate XAMMP MySQL, Create database "akademik" 
+6. Open Command Prompt, and type
  
 	* cd School-Academic-Management-System-SIAKAD-master
 	* python manage.py migrate
