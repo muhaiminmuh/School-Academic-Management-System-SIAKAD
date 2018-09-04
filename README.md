@@ -1,4 +1,6 @@
-# School Academic Management System SIAKAD Python Django
+# School Academic Management System SIAKAD 
+
+Python Django
 
 Merupakan website akademik siakad sederhana yang dibangun dengan framework django
 
