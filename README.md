@@ -4,12 +4,12 @@ Merupakan website akademik siakad sederhana yang dibangun dengan framework djang
 
 
 # Requirement
-python 3
-pip
-virtualenvwrapper-win
-django
-mysqlclient
-reportlab
+. python 3
+. pip
+. virtualenvwrapper-win
+. django
+. mysqlclient
+. reportlab
 
 # Installation (windows)
 1. Intall python 3
