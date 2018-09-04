@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>STMIK - Pemgrograman Open Source</title>
+	<style type="text/css">
+
+		body {
+			background: #FFFFFF;
+			font-family: "Arial";
+		}
+		#halaman {
+			background: #FFFFFF;
+			width: 900px;
+			margin: auto; /*agar otomatis jaraknya menyesuaikan resolusi*/
+			border: 10px #c0c0c0;
+			box-shadow: 0px 0px 12px 8px #555555;
+		}
+		#header {
+			background: #000000;
+			height: 150px;
+			border-bottom: 5px solid #FFAA55;
+		}
+		#menu {
+			background: #AA8855;
+			height: 45px;
+			border-radius: 0px 0px 8px 8px;
+			margin: 0px 10px 0px 10px;
+		}
+		#menu:hover {
+			background: #0055FF;
+		}
+		#isi {
+			padding: 10px;
+			min-height: 400px;
+			background: grey;
+			border-radius: 8px;
+			border: 2px double #555555;
+		}
+		#footer {
+			background: #997744;
+			text-align: center;
+			vertical-align: middle;
+			font-weight: bold;
+			height: 70px;
+		}
+	</style>
+</head>
+<body>
+	<div id="halaman">
+		<div id="header">
+			<img src="../static/gambar/header.jpg" width="900" height="150">
+		</div>
+		<div id="menu">
+			{% include "layout/menu.html" %}
+		</div>
+		<div id="isi">
+			{% block isine %}
+				Nanti isine disini
+			{% endblock %}
+		</div>
+		<div id="footer">
+			STMIK DUTA BANGSA & COPY 2018
+		</div>
+	</div>
+</body>
+</html>

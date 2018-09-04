@@ -1,0 +1,15 @@
+{% extends "layout/template.html" %}
+{% block isine %}
+	<table border="1" cellpadding="3" cellspacing="0">
+		<tr>
+			<th>NIM</th>
+			<th>NAMA</th>
+		</tr>
+		{% for mhse in data %}
+		<tr>
+			<td>{{ mhse.nim }}</td>
+			<td>{{ mhse.nama }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+{% endblock %}
