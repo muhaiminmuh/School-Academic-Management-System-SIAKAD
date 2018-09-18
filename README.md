@@ -41,3 +41,5 @@ Front-End = http://localhost:8000/
 
 
 # Installation (linux)
+
+Untuk installasi linux tidak perlu saya jelaskan lagi, kurang lebih sama dengan windows, bahkan lebih mudah
